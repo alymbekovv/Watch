@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.home {
+  display: flex;
+  margin-top: 50px;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.homeTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.homeTitle h1 {
+  font-size: 15rem;
+  font-weight: 500;
+}
+.homeTitle p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 50px;
+}
+.btn {
+  position: relative;
+}
+.btn1 {
+  padding: 13px 30px;
+  background: #000;
+  border: transparent;
+  color: #fff;
+}
+.btn2 {
+  padding: 13px 20px;
+  background: #d6d6d640;
+  border: transparent;
+  color: #000;
+  position: absolute;
+  left: 122px;
+}
+.watch {
+  width: 500px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+
+.watch1 {
+  margin: 0 auto;
+}
+
+.watch1 p {
+  color: #000;
+}
+
+.watch1 h5 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.watch2 {
+  margin-top: 100px;
+}
+.watch2 h3 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.watch2 p {
+  line-height: 22px;
+  font-size: 1rem;
+}
+
+img {
+  padding: 30px;
+  background: #f8f8f8;
+}
+
+.watch3 {
+  margin: 50px 0 50px 0;
+}
+.watch3 hr {
+  width: 160px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.watch3 p {
+  width: 390px;
+  line-height: 25px;
+  margin: 0 auto;
+}
